@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a new Facebook account</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .top, .body {
+            text-align: center;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-family: Arial;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #c4c4c4;
+        }
+        .basic, .verification, .name > div {
+            font-size:16px;
+            margin:20px;
+            display:flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            font-size:16px;
+            border-style: solid;
+            border-color: #c4c4c4;
+            padding:11px;
+            margin: 5px;
+            flex: 1;
+        }
+        h3 {
+            text-align: left;
+        }
+        button {
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            background-color: #4bc970;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            border-radius: 5px;
+            width: 100%;
+            border: 1px solid #3ac162;
+            border-width: 1px 1px 3px;
+            box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook-logo" width="60%" class="center">
+    </div>
+    <div class="top">
+        <div class="header">
+            <h1>Create a new account</h1>
+        </div>
+        <div class="subtitle">
+            <p>It's quick and easy</p>
+        </div>
+    </div>
+    <div class="body">
+        <div class="basic">
+            <div class="name">
+                <form>
+                    <input id="fname" class="fname" placeholder="First name" type="text">
+                    <input id="sname" class="sname" placeholder="Surname" type="text">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <input id="contact" class="contact" placeholder="Mobile number or email address" type="text">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <input id="password" class="password" placeholder="New password" type="password">
+                </form>
+            </div>
+        </div>
+        <div class="verification">
+            <form id="facebook-registration-verification">
+                <h3>Date of birth</h3>
+                <input id="dob" class="dob" type="date" size="100%">
+                <br>
+                <h3>Gender</h3>
+                <br>
+                <label>Male</label>
+                <input type="radio">
+                <label>Female</label>
+                <input type="radio">
+                <label>Custom</label>
+                <input type="radio">
+                <br>
+            </form>
+            <div>
+                <p>
+                    Em chưa biết làm flexbox kiểu gì nên nhìn nó kì quá :((((
+                </p>
+                <p style="text-align: left">
+                    People who use our service may have uploaded your contact information to Facebook. Learn more.
+                </p>
+                <p style="text-align: left">
+                    By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+                </p>
+            </div>
+            <div>
+                <button>Sign Up</button>
+            </div>
+            <div>
+                <a href="https://www.google.com/">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
